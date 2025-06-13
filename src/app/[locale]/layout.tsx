@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import {NextIntlClientProvider, hasLocale} from 'next-intl';
-import {routing} from '@/i18n/routing';
+import {NextIntlClientProvider} from 'next-intl';
+
 
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
