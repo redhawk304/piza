@@ -27,7 +27,7 @@ const LangSwitcher = ({params}:{params:string}) => {
 
     return (
 
-    <li className="flex items-center gap-2">
+    <li className="flex items-center space-x-4">
         {/* <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="link" className="cursor-pointer">{ param.locale==='en' ? ( <span>عربي</span> ) : (<span>English</span>) }</Button>

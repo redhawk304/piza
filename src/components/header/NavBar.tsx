@@ -41,7 +41,7 @@ export const NavBar = ({ mobileM }: MobileProps) => {
     <nav className="flex-1 justify-end flex items-center  ">
       <ul className="flex md:flex-row items-center flex-col justify-between gap-2 transition-all duration-200 ease-in-out">
         {Links.map((link, index) => (
-          <li key={index} className="text-gray-500 space-x-2">
+          <li key={index} className="text-gray-500 space-x-4">
             <Link
               href={link.path}
               className="text-sm hover:text-red-500 duration-200 font-medium"
@@ -62,7 +62,7 @@ export const NavBar = ({ mobileM }: MobileProps) => {
     <div className="block md:hidden">
       <Sheet>
         <SheetTrigger asChild>
-          <MenuSquare className="text-3xl cursor-pointer" />
+          <MenuSquare className="text-3xl text-gray-500 cursor-pointer" />
         </SheetTrigger>
         <SheetContent side="left" className=" flex items-start justify-between">
           <SheetHeader>
@@ -77,7 +77,7 @@ export const NavBar = ({ mobileM }: MobileProps) => {
             <nav className="flex-1 justify-end flex items-center  ">
               <ul className="flex md:flex-row items-center flex-col justify-between gap-2 transition-all duration-200 ease-in-out">
                 {Links.map((link, index) => (
-                  <li key={index} className="text-gray-500 space-x-2">
+                  <li key={index} className="text-gray-500 space-x-4">
                     <SheetClose asChild>
                       <Link
                         href={link.path}

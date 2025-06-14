@@ -11,7 +11,7 @@ import {
 
 const Header = () => {
   return (
-    <header className=" w-full fixed lg:static  bg-background   flex items-start md:items-center justify-between">
+    <header className=" w-full fixed  bg-background   flex items-start md:items-center justify-between z-10">
       <div className="container mx-auto  flex  items-start md:items-center p-5 justify-between gap-3 py-4 border-b   ">
         <Logo link />
         <div

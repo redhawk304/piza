@@ -1,15 +1,16 @@
 
+import Hero from '@/components/hero';
 import {getTranslations} from 'next-intl/server';
 
 export default async function Home() {
   const t = await getTranslations('HomePage');
   return (
-    <div className="  w-full min-h-screen flex justify-center items-center px-4 py-6">
-      <div className='bg-gray-50'>
+    <div className="  w-full  flex justify-center items-start md:px-4">
+     <Hero />
+     <div className='h-[10000px]'>
+      goo
 
-      <h1>{t('title')}</h1>
-      <p>{t('about')}</p>
-      </div>
+     </div>
     </div>
   );
 }
