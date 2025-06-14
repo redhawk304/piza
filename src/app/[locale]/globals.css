@@ -119,4 +119,8 @@
   body {
     @apply bg-background text-foreground;
   }
+  .section-gape{
+    @apply py-8 md:py-16 w-full ;
+
+  }
 }
